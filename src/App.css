@@ -1,9 +1,74 @@
-.wrapper{
-  width: 100%;
-  margin: 0 auto;
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-
 .header {
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.main{
+  margin: 0 500px 0 500px;
+  display: flex;
+  font-size: 18px;
+  border-bottom: 1px solid black;
+  align-items: center;
+  padding: 10px 0px;
+  justify-content: center;
+  flex-direction: column;
+}
+.main__tasks {
   width: 100%;
+}
+.main__task {
+  display: flex;
+  justify-content: space-between;
+}
+.main__btn {
+  padding: 10px;
+  border-radius: 20px;
+  border: 0;
+  outline: none;
+  -webkit-box-shadow: 0px 1px 11px 1px rgba(34, 60, 80, 0.17);
+  -moz-box-shadow: 0px 1px 11px 1px rgba(34, 60, 80, 0.17);
+  box-shadow: 0px 1px 11px 1px rgba(34, 60, 80, 0.17);
+}
+.root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.mainInput{
+  width: 500px;
+  padding: 14px;
+  border-radius: 20px;
+  border: 0;
+  outline: none;
+  -webkit-box-shadow: 0px 1px 11px 1px rgba(34, 60, 80, 0.17);
+  -moz-box-shadow: 0px 1px 11px 1px rgba(34, 60, 80, 0.17);
+  box-shadow: 0px 1px 11px 1px rgba(34, 60, 80, 0.17);
+  margin-left: 60px;
+}
+.btn-none{
+  position: relative;
+  border:none;
+  font-size: 17px;
+  background: white;
+  right: 90px;
+  top:2px
+}
+.editInput {
+  width: 510px;
+  padding: 14px;
+  border-radius: 20px;
+  border: 0;
+  outline: none;
+  -webkit-box-shadow: 0px 1px 11px 1px rgba(34, 60, 80, 0.17);
+  -moz-box-shadow: 0px 1px 11px 1px rgba(34, 60, 80, 0.17);
+  box-shadow: 0px 1px 11px 1px rgba(34, 60, 80, 0.17);
+}
+.checked {
+  text-decoration: line-through;
 }
